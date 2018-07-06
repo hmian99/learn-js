@@ -4,7 +4,8 @@
   "description": "A [HowToCode.io](https://www.howtocode.io) tutorial on learning [Webpack 2](https://webpack.js.org)",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,19 @@
   "author": "Mohammed karimi",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^8.6.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "cssnano": "^4.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "lost": "^8.3.0",
+    "node-sass": "^4.9.1",
+    "postcss-loader": "^2.1.5",
+    "rucksack-css": "^1.0.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
     "webpack": "^4.15.1",
     "webpack-cli": "^3.0.8"
   }
